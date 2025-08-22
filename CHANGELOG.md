@@ -5,12 +5,42 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [4.3.0] - 2025-08-11
+
+### Added
+
+- added BigInt support
+
+### Fixed
+
+- replaced parseInt with BigInt
+
+### Removed
+
+- time tracking (found it useless)
+
+## [4.2.0] - 2025-08-11
+
+### Fixed
+
+- fixed useDump and returned backward compatibility
+
+## [4.1.0] - 2025-08-11
+
+### Added
+
+- time tracking for each update
+
+### Fixed
+
+- setting/getting string values which contain spaces
+
 ## [4.0.0] - 2025-06-25 (**Breaking changes!**)
 
 ### Added
 
 - Returned Auto-Save Mechanism as more efficient;
-- Added **writer**  (boolean, default true) to options, this property enables auto-syncs
+- Added **writer** (boolean, default true) to options, this property enables auto-syncs
 
 ---
 
@@ -22,7 +52,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Removed **mode** and **dumpInterval** from options
 
 ---
-
 
 ## [2.2.9] - 2025-06-20
 

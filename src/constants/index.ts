@@ -1,3 +1,5 @@
-export * from './default-dump-interval';
-export * from './dump-event';
 export * from './default-datanautics-options';
+export * from './events';
+export * from './falsy-values';
+export * from './interval';
+export * from './reg-exp';

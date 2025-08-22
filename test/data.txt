@@ -1,3 +1,0 @@
-user.firstname John
-user.lastname Doe
-score[0] 27
