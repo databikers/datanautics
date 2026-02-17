@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@const": ["src/constants"],
-      "@options": ["src/options"]
+      "@options": ["src/options"],
+      "@helper": ["src/helpers"]
     }
   },
   "include": ["src/**/*"]

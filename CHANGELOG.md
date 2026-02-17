@@ -5,6 +5,61 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [8.0.0] - 2025-02-11
+
+### Added
+
+- Moved data restoring to the separate init() method.
+- Moved data storing to the separate store() method.
+- Upgraded storing algorithm.
+
+### Changed
+
+- options.dumpPath -> options.pathToDumpFile
+- options.dumpInterval -> options.storingInterval
+
+
+## [7.0.0] - 2025-02-11
+
+### Added
+
+- Moved data restoring to the separate init() method.
+- Upgraded storing algorithm.
+
+## [6.0.0] - 2025-02-11
+
+_BROKEN VERSION_
+
+## [5.0.0] - 2025-02-11
+
+### Added
+
+- Reimplemented storing algorithm due to high CPU load and EL delays for large objects storing
+
+## [4.6.0] - 2025-02-11
+
+### Fixed
+
+- Refactored storing algorithm
+
+## [4.5.0] - 2025-08-11
+
+### Added
+
+- timestamps in dumps, preparing for multi-instance synchronization
+
+## [4.4.0] - 2025-08-11
+
+### Fixed
+
+- handle quoted property names correctly
+
+## [4.3.1] - 2025-08-11
+
+### Fixed
+
+- used BigInt support only for unsafe integers
+
 ## [4.3.0] - 2025-08-11
 
 ### Added

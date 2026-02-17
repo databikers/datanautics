@@ -1,1 +1,1 @@
-export const DUMP_EVENT: string = 'dump';
+export const STORE_EVENT = 'storeEvent';
